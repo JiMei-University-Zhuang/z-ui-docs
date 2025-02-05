@@ -31,7 +31,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/z-ui' }
+      { icon: 'github', link: 'https://github.com/JiMei-Universe-Zhuang/z-ui' }
     ]
   }
 }) 

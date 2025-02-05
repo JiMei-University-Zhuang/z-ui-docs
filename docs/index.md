@@ -10,7 +10,7 @@ hero:
       link: /guide/quickstart
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/your-username/z-ui
+      link: https://github.com/JiMei-Universe-Zhuang/z-ui
 
 features:
   - icon: ⚡️
