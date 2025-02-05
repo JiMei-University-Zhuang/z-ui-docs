@@ -15,10 +15,14 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: Install and Build 🔧
+      - name: Clean and Install 🧹
         run: |
+          rm -rf node_modules package-lock.json
           npm install
-          npm run docs:build
+          npm install @rollup/rollup-linux-x64-gnu  # 显式安装 Rollup 平台依赖
+
+      - name: Build 🔧
+        run: npm run docs:build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
